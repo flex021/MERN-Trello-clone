@@ -16,7 +16,7 @@ This project is a **Trello clone built with the MERN stack (MongoDB, Express.js,
 
 - 📧 Email registration with Brevo verification (account activation required)  
 - 🌙 Dark, Light, and System mode  
-- 📊 Board management: create and search boards  
+- 📊 Board management: create, delete and search boards  
 - 👥 Profile settings: password change, display name, avatar upload  
 - 🤝 Real-time invitations: invite users by email (Socket.IO) with accept/reject  
 - ➕ Add new columns and cards; drag-and-drop using @dnd-kit  
@@ -56,7 +56,7 @@ yarn dev
 ## Project Flow
 - **Register**: Email signup → Brevo verification → account activation
 - **Login**: JWT issued → access boards and profile
-- **Board** & Column: Create/search boards → add columns → drag-and-drop
+- **Board** & Column: Create/delete/search boards → add columns → drag-and-drop
 - **Card**: Add new cards → cover, members, description, comment, rename, delete
 - **Realtime** Collaboration: Invite users → accept/reject → live updates and notifications
 

@@ -72,7 +72,7 @@ This project uses **email-based account verification with JWT authentication**:
 
 | Email                   | Password       |
 |-------------------------|----------------|
-| `nguyencongthong.work@gmail.com`  | `12345678a`    |
+| `congthong2015@gmail.com`  | `12345678a`    |
 
 
 ## Project Structure

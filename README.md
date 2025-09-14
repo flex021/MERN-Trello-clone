@@ -30,7 +30,7 @@ This project is a **Trello clone built with the MERN stack (MongoDB, Express.js,
 
 | Email                   | Password       |
 |-------------------------|----------------|
-| `nguyencongthong.work@gmail.com`  | `12345678a`    |
+| `congthong2015@gmail.com`  | `12345678a`    |
 
 
 ## Run Locally

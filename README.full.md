@@ -74,40 +74,6 @@ This project uses **email-based account verification with JWT authentication**:
 |-------------------------|----------------|
 | `nguyencongthong.work@gmail.com`  | `12345678a`    |
 
-**User Flow Summary:**
-
-
-
-This project uses **email-based account verification with JWT authentication**. The flow is as follows:
-
-```mermaid
-%%{init: {'flowchart': {'nodeSpacing': 30, 'rankSpacing': 50}}}%%
-graph TD
-    subgraph Registration
-        A[Open Frontend] --> B{Signup or Login?}
-        B -->|Signup| C[Email Signup]
-        C --> D[Brevo Email]
-        D --> E[Activate Link]
-        E --> F[Account Activated]
-    end
-    subgraph Login & Profile
-        F --> G[Login]
-        B -->|Login| G
-        G --> H{Valid?}
-        H -->|No| I[Error: Invalid/Inactive]
-        H -->|Yes| J[Get JWT]
-        J --> K[Store JWT]
-        K --> L[Update Profile]
-        G --> M[Logout]
-    end
-```
-
-
-
-
-- **Registration** → Email sent → Activate link → Account ready  
-- **Login** → JWT issued → Access boards/profile  
-- **Invitation** → Real-time Socket.IO notification → Accept/Reject → Shared board access  
 
 ## Project Structure
 
@@ -163,7 +129,7 @@ npm run lint         # ESLint validation
 
 ## Configuration Requirements
 
-This project requires Node.js >= 18.16.0:
+This project requires Node.js 18.16.0:
 
 ```bash
 git clone <repository-url>

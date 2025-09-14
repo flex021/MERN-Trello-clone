@@ -2,13 +2,13 @@
 
 > **MERN Stack Trello Clone with Real-time Collaboration and Drag-and-Drop Functionality**
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Here-2ea44f?style=for-the-badge)](https://trello-web-eight-self.vercel.app)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Here-2ea44f?style=for-the-badge)](https://ideft.vercel.app)
 
 ## Overview
 
 This project is a **Trello clone built with the MERN stack (MongoDB, Express.js, React, Node.js)**, featuring real-time collaboration, drag-and-drop interfaces, and secure email-based authentication. It replicates core Trello functionalities like board management, column/card organization, and team invitations.
 
-**Frontend:** React + Vite ([Demo](https://trello-web-eight-self.vercel.app))  
+**Frontend:** React + Vite ([Demo](https://ideft.vercel.app))  
 **Backend:** Node.js + Express + MongoDB ([API](https://trello-ideft-api.onrender.com))
 
 

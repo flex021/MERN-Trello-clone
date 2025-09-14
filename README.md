@@ -34,6 +34,11 @@ This project is a **Trello clone built with the MERN stack (MongoDB, Express.js,
 
 
 ## Run Locally
+
+
+This project requires Node.js 18.16.0:
+
+
 **Frontend** (`http://localhost:5173`)
 ```bash
 cd trell-web

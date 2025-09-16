@@ -8,6 +8,8 @@
 
 This project is a **Trello clone built with the MERN stack (MongoDB, Express.js, React, Node.js)**, featuring real-time collaboration, drag-and-drop interfaces, and secure email-based authentication. Designed to demonstrate modern web development skills, it replicates core Trello functionalities like board management, column/card organization, and team invitations, with a focus on user experience and scalability.
 
+<img width="1909" height="870" alt="Image" src="https://github.com/user-attachments/assets/4fcd2c5e-f4e9-4466-b53d-e882e0e3f02e" />
+
 **Architecture:**
 - **Frontend**: React application with Vite bundler ([https://ideft.vercel.app](https://ideft.vercel.app))
 - **Backend**: Node.js + Express API server with MongoDB ([https://trello-ideft-api.onrender.com](https://trello-ideft-api.onrender.com))
@@ -56,6 +58,20 @@ yarn dev
 - **Deployment**: Vercel (frontend), Render (backend)
 
 ## Authentication Flow
+#### Email Verification (*Flow: User registers → System sends verification email → Click link to activate account*)
+<img width="1715" height="649" alt="Image" src="https://github.com/user-attachments/assets/42a4f129-b241-428d-a2c4-ad5017f2da2a" /> 
+
+#### Board View (*Flow: After login → User creates and manages multiple project boards*)
+<img width="1912" height="818" alt="Image" src="https://github.com/user-attachments/assets/bc4d0d50-cb9f-4bec-9aab-47ee7f77b6e2" />
+
+#### Card Detail View (*Flow: Open a card → View details (cover, description, comments, members, edit, delete*)
+<img width="1352" height="870" alt="Image" src="https://github.com/user-attachments/assets/11379569-0e12-4ac7-9b53-9d738edd35c0" /> 
+
+#### Realtime Invite (*Flow: Invite user via email → Realtime notification through Socket.IO → Accept/Reject instantly*)
+<img width="1850" height="860" alt="Image" src="https://github.com/user-attachments/assets/7e530166-d9f9-4098-a334-cf9278308d8d" />
+
+
+
 
 This project uses **email-based account verification with JWT authentication**:
 

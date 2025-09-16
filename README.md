@@ -8,6 +8,8 @@
 
 This project is a **Trello clone built with the MERN stack (MongoDB, Express.js, React, Node.js)**, featuring real-time collaboration, drag-and-drop interfaces, and secure email-based authentication. It replicates core Trello functionalities like board management, column/card organization, and team invitations.
 
+<img width="1909" height="870" alt="Image" src="https://github.com/user-attachments/assets/4fcd2c5e-f4e9-4466-b53d-e882e0e3f02e" />
+
 **Frontend:** React + Vite ([Demo](https://ideft.vercel.app))  
 **Backend:** Node.js + Express + MongoDB ([API](https://trello-ideft-api.onrender.com))
 
